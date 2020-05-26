@@ -151,3 +151,89 @@ body {
     padding-bottom: 60px;
   }
 }
+
+#whatWeDo {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  height: auto;
+}
+#whatWeDo h1 {
+  font-size: 30px;
+}
+#whatWeDo h1::after {
+  content: '';
+  background: #222;
+  display: block;
+  height: 2px;
+  width: 15%;
+  margin: 15px auto 45px;
+}
+#whatWeDo .container {
+  position: relative;
+}
+#whatWeDo h6 {
+  font-weight: 600;
+}
+#whatWeDo p {
+  font-size: 14px;
+}
+#whatWeDo .doings {
+  height: 180px;
+}
+#whatWeDo .icon {
+  height: 130px;
+}
+#whatWeDo .details1 {
+  display: none;
+}
+#whatWeDo .illustration1 {
+  display: show;
+}
+#whatWeDo .details1 {
+  display: none;
+}
+#whatWeDo .illustration2 {
+  display: show;
+}
+#whatWeDo .details2 {
+  display: none;
+}
+#whatWeDo .illustration3 {
+  display: show;
+}
+#whatWeDo .details3 {
+  display: none;
+}
+#whatWeDo .icon:hover .doings p {
+  text-align: center;
+  font-size: 14px;
+}
+#whatWeDo .description {
+  width: 100%;
+  text-align: center;
+  padding: 5px 5px;
+  color: #222;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 1.5em;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-name: Slide;
+  -webkit-animation-duration: 2s;
+  animation-name: Slide;
+  animation-duration: 1.5s;
+}
+@media screen and (max-width: 601px) {
+  #whatWeDo h1::after {
+    margin: 15px auto 20px;
+    width: 35%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #whatWeDo .doings {
+    height: auto;
+    cursor: pointer;
+  }
+}
