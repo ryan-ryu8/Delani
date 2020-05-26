@@ -15,3 +15,7 @@
 * CSS
 * JQuery
 * Javascript
+
+### License
+* MIT
+*Ryan Munge
