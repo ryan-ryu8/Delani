@@ -8,7 +8,7 @@
   Ryan Munge
   
 ## Overview of the project 
-  [Click to see me]( https://ryan-ryu8.github.io/Delani/)
+  [Click to see me]
   
 ## Technologies Used
 * HTML
